@@ -1,0 +1,122 @@
+/* Estilos para el encabezado */
+*{
+    font-family: Sans-serif;
+}
+header {
+    background-color: #fff;
+    color: #6c6b6b;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 30px black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6c6b6b;
+}
+hr{
+    border: 2px solid #333; 
+    width: 800px;
+}
+
+/* Estilos para el contenido */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+article img {
+    width: 400px;
+    height: 200px;
+   
+    
+}
+article p {
+    padding:10px;
+
+}
+article a {
+    padding: 2px;
+    text-decoration: none;
+    color: #626161;
+}
+
+
+
+#title-a{
+    color: black;
+    text-decoration: none;
+
+}
+#title-a:hover{
+    color: #3f67bd;
+
+}
+
+
+.info {
+    text-align: center;
+}
+#bannerHistory {
+    width: 500px;
+    height: 300px;
+}
+.info img {
+
+    width: 400px;
+    height: 200px;
+
+}
+.info p {
+    text-align: justify;
+}
+.subscripción {
+    color: #8f8e8e;
+    box-shadow: inset 0 0 2000px rgba(173, 172, 172, 0.5);
+    text-align: center;
+    width: 700px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+}
+.subscripción  button {
+    color: #fff;
+    border-radius: 0.5rem;
+    background-color: #4c85ff;
+    padding: 10px;
+}
+.subscripción  button:hover{
+    background-color: #ffffff;
+    color: #4c85ff;
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: #fff;
+    color: #6c6b6b;
+    text-align: center;
+    padding: 10px;
+}
